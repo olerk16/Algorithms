@@ -1,0 +1,13 @@
+
+
+function reverseString(str) {
+    str = str.split("");
+    str = str.reverse();
+    str = str.join(separator = '');
+
+    return str;
+  }
+
+  reverseString("hello");
+
+  reverseString("Greetings Earthlings");
